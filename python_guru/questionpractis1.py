@@ -18,13 +18,13 @@
 # Q3: Take the user's age as input. Check and print whether they are eligible
 # to vote (age >= 18) and whether they are a senior citizen (age >= 60).
 # Print both results.
-age = int(input("Enter your age = "))
-can_vote= age>=18
+# age = int(input("Enter your age = "))
+# can_vote= age>=18
 
 
-senior_citizen=age>=60
-print(f" user Can vote= {can_vote}")
-print(f" user Senior citizen={senior_citizen}")
+# senior_citizen=age>=60
+# print(f" user Can vote= {can_vote}")
+# print(f" user Senior citizen={senior_citizen}")
 
 # if age >= 60:
 #     print("You are a senior citizen")
@@ -33,3 +33,12 @@ print(f" user Senior citizen={senior_citizen}")
 # else:
 #     print("You are not eligible to vote")
 
+# Q4: A student scored marks in 3 subjects. Take all three as input,
+# calculate the total and average, and print both using an f-string.
+sub1=int(input("Enter marks for subject 1: "))
+sub2=int(input("Enter marks for subject 2: "))
+sub3=int(input("Enter marks for subject 3: "))
+total=sub1 + sub2 + sub3
+average=total/3
+print(f"Total mark = {total}")
+print(f"Average mark = {average}")
