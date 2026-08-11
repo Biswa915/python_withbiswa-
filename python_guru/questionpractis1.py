@@ -69,17 +69,19 @@
 # . 60 to 74 -> C
 # · 40 to 59 -> D
 # . Below 40 -> F
-mark =int(input("Enter your mark"))
-if mark >=90:
-    print("A")
-elif mark >=75 and mark <=89:
-    print("B")
-elif mark >=60 and mark <=74:
-    print("C")
-elif mark >=40 and mark <=59:
-    print("D")
-elif mark >=40:
-    print("f")  
-else:
-    print("not valied number")   
+# mark =int(input("Enter your mark"))
+# if mark >=90:
+#     print("A")
+# elif mark >=75 and mark <=89:
+#     print("B")
+# elif mark >=60 and mark <=74:
+#     print("C")
+# elif mark >=40 and mark <=59:
+#     print("D")
+# elif mark >=40:
+#     print("f")  
+# else:
+#     print("not valied number")   
+
+
            

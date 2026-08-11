@@ -46,3 +46,15 @@
 
 
 ### nested if else statement:-
+# age =45
+# certificate = True
+
+# age= int(input("Enter your age ="))
+# if age >=18:
+#     print ("you are apply for this vacl")
+#     if certificate == True:
+#        print("you are aligibale")
+# else:
+#     print("you are not aligibale ")      
+
+
