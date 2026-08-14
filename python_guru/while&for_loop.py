@@ -17,12 +17,22 @@
 #     i +=1
 
 #3 strat to end user using while loop
-strat =int(input("enter your number=")) #1
-end =int(input("enter your number=")) #20
-i=strat
-while i <=end:
-    print(i, end=" ")
+# start =int(input("enter your number=")) #1
+# end =int(input("enter your number=")) #20
+# i=start
+
+# while i <= end:
+#     print(i, end=" ")
+#     i += 1
+
+# print(f"After while loop, start value is {start}")
+
+#4  start to end print even numbers
+
+start = int(input("Enter start number ="))
+end = int(input("Enter end number =")) # 11
+i= start
+while i <= end:
+    if i /2 ==0:
+      print(i, end=" ")  
     i +=1
-
-
-    print(f"After while loop, start value is {start}")
