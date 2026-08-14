@@ -9,7 +9,7 @@
 
 # Q19. Ask a number from the user, and print all the factors.
 
-#Q1
+#Q15
 # start=int(input("enter your number="))
 # end=int(input("enter your number="))
 
@@ -19,17 +19,32 @@
 #          print(i, end=" ")
 #     i +=1
 
-#q2
+#q16
+# start=int(input("enter your number="))
+# end=int(input("enter your number="))
+
+# i=start
+# total = 0
+# while i<=end:
+#      total= total+i
+#      i+=1
+
+# print(f"total = {total}")
+
+#q17
 start=int(input("enter your number="))
 end=int(input("enter your number="))
 
 i=start
 total = 0
 while i<=end:
-     total= total+i
+     if i % 2==0 and i%7==0:
+       print(i)
+       total= total+i
      i+=1
      
-print(f"total = {total}")
+print(f"total = {total}") 
+
 
 
      
