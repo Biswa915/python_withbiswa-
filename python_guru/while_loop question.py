@@ -28,5 +28,8 @@ total = 0
 while i<=end:
      total= total+i
      i+=1
+     
 print(f"total = {total}")
+
+
      
