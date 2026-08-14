@@ -57,4 +57,10 @@
 # else:
 #     print("you are not aligibale ")      
 
-
+### shorthand if-else(Ternary operator)
+# age =int(input("enter your age ="))
+# if age>=18:
+#     status="eligible"
+# else:
+#     status='not eligible'
+# print(status)

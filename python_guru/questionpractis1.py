@@ -83,5 +83,25 @@
 # else:
 #     print("not valied number")   
 
+# Q11: Take a person's age and whether they have a valid ID (True/False) as input. They
+# can enter a venue only if they are 18 or older AND have a valid ID. Print the
+# appropriate message.
+# age = 20
+# id = input("Enter your valid ID (True/False): ")
 
-           
+# if age >= 18 and id == "True":
+#     print("You are eligible")
+# else:
+#     print("False")
+
+# Q12: Take three numbers as input. Print the largest of the three without using any
+# built-in function.
+# a=(input("Enter your fast number="))
+# b=(input("Enter your second number="))
+# c=(input("Enter your third number="))
+# if a >=b:
+#     print("largest number is",a)
+# elif b >=c:
+#     print("largest number is",b)
+# else:
+#     print("largest number is",c)        
