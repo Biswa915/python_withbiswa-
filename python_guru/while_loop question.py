@@ -36,22 +36,32 @@
 # end=int(input("enter your number="))
 
 # i=start
-# total = 0
+# count = 0 # total=0
 # while i<=end:
 #      if i % 2==0 and i%7==0:
 #        print(i)
-#        total= total+i
+#        count= count+1 #/ total= total+i
 #      i+=1
      
-# print(f"total = {total}") 
+# print(f"total count 2 and 7 = {count}") # print(f"total{total}"")
 
 # Q18  :
-num=int(input("enter your number="))
+# num=int(input("enter your number="))
+# i=1
+# while i<=10:
+#     div= num*i
+#     print(f"{num}x{i}={div}")
+#     i +=1
+
+# Q19 
+num=int(input('enter your num='))
 i=1
-while i<=10:
-    div= num*i
-    print(f"{num}x{i}={div}")
-    i +=1
+count=0
+while i<=num:
+    if num %i==0:
+     count=count+1
+    i+=1
+print(f'total factor number{num} and counting number{count}')
 
 
 
