@@ -32,18 +32,26 @@
 # print(f"total = {total}")
 
 #q17
-start=int(input("enter your number="))
-end=int(input("enter your number="))
+# start=int(input("enter your number="))
+# end=int(input("enter your number="))
 
-i=start
-total = 0
-while i<=end:
-     if i % 2==0 and i%7==0:
-       print(i)
-       total= total+i
-     i+=1
+# i=start
+# total = 0
+# while i<=end:
+#      if i % 2==0 and i%7==0:
+#        print(i)
+#        total= total+i
+#      i+=1
      
-print(f"total = {total}") 
+# print(f"total = {total}") 
+
+# Q18  :
+num=int(input("enter your number="))
+i=1
+while i<=10:
+    div= num*i
+    print(f"{num}x{i}={div}")
+    i +=1
 
 
 
