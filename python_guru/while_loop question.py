@@ -54,14 +54,14 @@
 #     i +=1
 
 # Q19 
-num=int(input('enter your num='))
-i=1
-count=0
-while i<=num:
-    if num %i==0:
-     count=count+1
-    i+=1
-print(f'total factor number{num} and counting number{count}')
+# num=int(input('enter your num='))
+# i=1
+# count=0
+# while i<=num:
+#     if num %i==0:
+#      count=count+1
+#     i+=1
+# print(f'total factor number{num} and counting number{count}')
 
 
 
