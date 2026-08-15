@@ -30,8 +30,14 @@
 # print(f"sum ={total}")
 
 # q3
-start=1
-end=100
-for i in range(start,end+1):
-    if i %2==0 and i %7==0:
-        print(i,end=" ")
+# start=1
+# end=100
+# for i in range(start,end+1):
+#     if i %2==0 and i %7==0:
+#         print(i,end=" ")
+
+# Q4
+num=int(input("enter your number="))
+for i in range(num):
+    ans= num*i
+    print(f"{num}x{ans*i}")
