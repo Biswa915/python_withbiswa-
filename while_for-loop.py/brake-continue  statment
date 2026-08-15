@@ -1,0 +1,7 @@
+BREAK statement
+break immediately stops the loop and exits it, even if the condition
+is still True or there are items left in the sequence.
+
+CONTINUE statement
+continue skips the rest of the current iteration and jumps straight to the next
+one. The loop does not stop - it just skips that particular cycle.
