@@ -21,11 +21,17 @@
 # print(f" count of number division {count}")
 
 # q2
-start=int(input("enter your number="))
-end=int(input("enter your number="))
+# start=int(input("enter your number="))
+# end=int(input("enter your number="))
 
-total=0
+# total=0
+# for i in range(start,end+1):
+#     total +=i
+# print(f"sum ={total}")
+
+# q3
+start=1
+end=100
 for i in range(start,end+1):
-    total +=i
-print(f"sum ={total}")
-
+    if i %2==0 and i %7==0:
+        print(i,end=" ")
