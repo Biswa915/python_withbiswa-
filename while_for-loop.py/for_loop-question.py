@@ -38,6 +38,6 @@
 
 # Q4
 num=int(input("enter your number="))
-for i in range(num):
+for i in range(1,18):
     ans= num*i
-    print(f"{num}x{ans*i}")
+    print(f"{num}x{i}={ans}")
