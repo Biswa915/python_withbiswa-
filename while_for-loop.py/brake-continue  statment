@@ -33,3 +33,11 @@ i=1
 # numbers and keep adding the positive ones. Stop when the user
 # enters 0 and print the total. (Uses both continue and Geemory
 
+total=0
+while True:
+    num=int(input('enter your number='))
+    if num == 0:
+        break
+    if num<0:
+        total += num
+print(total)
