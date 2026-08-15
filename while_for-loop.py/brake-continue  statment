@@ -1,7 +1,16 @@
-BREAK statement
-break immediately stops the loop and exits it, even if the condition
-is still True or there are items left in the sequence.
+# BREAK statement
+# break immediately stops the loop and exits it, even if the condition
+# is still True or there are items left in the sequence.
 
-CONTINUE statement
-continue skips the rest of the current iteration and jumps straight to the next
-one. The loop does not stop - it just skips that particular cycle.
+# CONTINUE statement
+# continue skips the rest of the current iteration and jumps straight to the next
+# one. The loop does not stop - it just skips that particular cycle.
+
+
+#brake while
+i=1
+while i<=10:
+    print(i,end=" ")
+    if i==5:
+     break
+    i +=1
