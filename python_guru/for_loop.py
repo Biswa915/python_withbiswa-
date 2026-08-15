@@ -12,5 +12,10 @@
 # Output: 1 2 3 4 5
 
 # print 1 to 10
-for i in range(1, 12):
-    print(i,end=" ") 
+# for i in range(1, 12):
+#     print(i,end=" ") 
+
+#step in for loop
+# for i in range(1, 12,4):
+#     print(i,end=" ") 
+    
