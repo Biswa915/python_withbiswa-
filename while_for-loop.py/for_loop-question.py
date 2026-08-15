@@ -37,7 +37,14 @@
 #         print(i,end=" ")
 
 # Q4
-num=int(input("enter your number="))
-for i in range(1,18):
-    ans= num*i
-    print(f"{num}x{i}={ans}")
+# num=int(input("enter your number="))
+# for i in range(1,18):
+#     ans= num*i
+#     print(f"{num}x{i}={ans}")
+
+# Q5
+num=int(input('enter your namber='))
+
+for i in range(1,11):
+    if num%i == 0:
+        print(i, end=' ')
