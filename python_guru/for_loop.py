@@ -16,10 +16,21 @@
 #     print(i,end=" ") 
 
 #step in for loop
-for i in range(1, 12,4):
-     print(i,end=" ") 
+# for i in range(1, 12,4):
+#      print(i,end=" ") 
     
 # loop revers and divisible cheek
-for i in range(100,0,-1):
-    if i % 2==0 and i %3==0:
-        print(i, end=" ")
+# for i in range(100,0,-1):
+#     if i % 2==0 and i %3==0:
+#         print(i, end=" ")
+
+#dynamik 
+# start and end by user
+# start to end print using while loop
+
+start = int(input("Enter start number = ")) 
+end=int(input("Enter end number = ")) 
+total=0
+for i in range(start,end+1):
+    total +=i
+print(total)
