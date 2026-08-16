@@ -43,8 +43,14 @@
 #     print(f"{num}x{i}={ans}")
 
 # Q5
-num=int(input('enter your namber='))
+# num=int(input('enter your namber='))
 
-for i in range(1,11):
-    if num%i == 0:
-        print(i, end=' ')
+# for i in range(1,11):
+#     if num%i == 0:
+#         print(i, end=' ')
+
+# q6
+for i in range(6,0,-1):
+    for j in range(1,i+1):
+        print(i,end=" ")
+    print()
