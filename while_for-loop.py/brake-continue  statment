@@ -41,4 +41,5 @@ while True:
     if num <0 :
         continue
     total += num
+    
 print(total)
