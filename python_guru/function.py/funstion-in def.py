@@ -10,3 +10,9 @@
 # Functions also make your code easier to read, easier to debug, and easier
 # to maintain. If the logic needs to change, you change it in one place
 # not everywhere.
+
+def biswa():
+    print("my name")
+    print("biswa")
+
+biswa()
