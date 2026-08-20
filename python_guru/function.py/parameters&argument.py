@@ -15,3 +15,7 @@ n=input("enter your name=")
 a=int(input("enter your name="))
 g=input("enter your gender=")
 addition(n,a,g)   
+
+def greet(n1,n2):
+   print(f"total={n1+n2}")
+greet()
