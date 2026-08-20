@@ -18,12 +18,20 @@
 # biswa()
 # Q35. Write a function that ask a number from user and prints if that
 # number is odd or even.
-def biswa():
-    num=int(input("enter a number="))
-    if num %2 ==0:
-            print("odd") 
-    else:
-            print("even")    
+# def biswa():
+#     num=int(input("enter a number="))
+#     if num %2 ==0:
+#             print("odd") 
+#     else:
+#             print("even")    
             
-biswa()          
+# biswa()          
  
+# Write a function that print all the factors of a number entered by user.
+def factors():
+    num=int(input("enter a number="))
+    for i in range(1,num+1):
+        if num%i==0:
+            print(i,end=' ')
+
+factors()       
