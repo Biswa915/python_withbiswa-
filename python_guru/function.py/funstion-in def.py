@@ -11,6 +11,13 @@
 # to maintain. If the logic needs to change, you change it in one place
 # not everywhere.
 
+# def
+# Defining and Calling a Function
+# You define a function using the def keyword followed by the function
+# name and parentheses. You call it by writing its name followed by parentheses.
+
+
+
 # def biswa():
 #     print("my name")
 #     print("biswa")
