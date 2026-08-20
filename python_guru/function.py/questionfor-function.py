@@ -15,4 +15,6 @@
 
 
 # q1
-de
+def addition(a1,b1):
+    print(f'total={a1+b1}')
+addition(123,43)    
