@@ -11,8 +11,19 @@
 # to maintain. If the logic needs to change, you change it in one place
 # not everywhere.
 
-def biswa():
-    print("my name")
-    print("biswa")
+# def biswa():
+#     print("my name")
+#     print("biswa")
 
-biswa()
+# biswa()
+# Q35. Write a function that ask a number from user and prints if that
+# number is odd or even.
+def biswa():
+    num=int(input("enter a number="))
+    if num %2 ==0:
+            print("odd") 
+    else:
+            print("even")    
+            
+biswa()          
+ 
