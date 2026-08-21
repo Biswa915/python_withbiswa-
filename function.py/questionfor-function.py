@@ -15,8 +15,16 @@
 
 
 # q1
-def addition(a1,b1):
-    ans=a1+b1
-    print(f'total={ans}')
+# def addition(a1,b1):
+#     ans=a1+b1
+#     print(f'total={ans}')
 
-addition(123,43)    
+# addition(123,43)    
+
+# q2
+def rectangle_area(length,breadth):
+    area=length*breadth
+    print(f"area of rectangle{area}")
+
+rectangle_area(10,12)
+rectangle_area(2 ,3)
