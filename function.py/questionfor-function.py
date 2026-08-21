@@ -22,9 +22,20 @@
 # addition(123,43)    
 
 # q2
-def rectangle_area(length,breadth):
-    area=length*breadth
-    print(f"area of rectangle{area}")
+# def rectangle_area(length,breadth):
+#     area=length*breadth
+#     print(f"area of rectangle{area}")
 
-rectangle_area(10,12)
-rectangle_area(2 ,3)
+# rectangle_area(10,12)
+# rectangle_area(2 ,3)
+
+# q3
+def max(a,b,c):
+    if a>=20:
+        print(a)
+    elif b>=30:
+        print(b)
+    else:
+        print(c)
+        
+max(10,50,34)               
