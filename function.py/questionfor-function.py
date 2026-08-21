@@ -30,12 +30,21 @@
 # rectangle_area(2 ,3)
 
 # q3
-def max(a,b,c):
-    if a>=20:
-        print(a)
-    elif b>=30:
-        print(b)
-    else:
-        print(c)
+# def max(a,b,c):
+#     if a>=20:
+#         print(a)
+#     elif b>=30:
+#         print(b)
+#     else:
+#         print(c)
         
-max(10,50,34)               
+# max(10,50,34) 
+              
+# q4
+def discount_price(original_pice,discount_price):
+    discount=(discount_price /100 ) * original_pice
+    final_amount= original_pice - discount
+    print(f"the final price Rs{discount}")
+    print(f"the final price Rs{final_amount}")
+
+discount_price(475, 58)
