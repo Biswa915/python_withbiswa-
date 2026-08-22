@@ -16,5 +16,7 @@ def can_voter(age):
         return True
     return False
 
-ans=can_voter(17)
+ans=can_voter(19)
 print(ans)
+
+print(can_voter(10))
