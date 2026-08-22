@@ -11,12 +11,19 @@
 # print(ans)
 
 # true and false return statement
-def can_voter(age):
-    if age>18:
-        return True
-    return False
+# def can_voter(age):
+#     if age>18:
+#         return True
+#     return False
 
-ans=can_voter(19)
+# ans=can_voter(19)
+# print(ans)
+
+# print(can_voter(10))
+
+def greed(name,age,gender):
+    return f"my name is {name} and i am {age} year old and gender {gender}"
+
+
+ans=greed("Biswajit",23,"male")
 print(ans)
-
-print(can_voter(10))
