@@ -49,6 +49,8 @@
 
 # discount_price(475, 58)
 
+
+
 # Practice Questions on Return Statements
 
 # Q41. Write a function called square that takes a number and returns its square.
@@ -59,3 +61,10 @@
 
 # Q43. Write a function called absolute_value that takes a number and returns
 # its absolute value without using the built-in abs() function.
+
+# q41 
+def squer(a):
+    
+    return a**2
+
+print(squer(19))
