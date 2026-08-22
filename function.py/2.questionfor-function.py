@@ -41,10 +41,21 @@
 # max(10,50,34) 
               
 # q4
-def discount_price(original_pice,discount_price):
-    discount=(discount_price /100 ) * original_pice
-    final_amount= original_pice - discount
-    print(f"the final price Rs{discount}")
-    print(f"the final price Rs{final_amount}")
+# def discount_price(original_pice,discount_price):
+#     discount=(discount_price /100 ) * original_pice
+#     final_amount= original_pice - discount
+#     print(f"the final price Rs{discount}")
+#     print(f"the final price Rs{final_amount}")
 
-discount_price(475, 58)
+# discount_price(475, 58)
+
+# Practice Questions on Return Statements
+
+# Q41. Write a function called square that takes a number and returns its square.
+# Store the result and print it.
+
+# Q42. Write a function called min_of_three that takes three numbers and returns
+# the smallest without using any built-in function.
+
+# Q43. Write a function called absolute_value that takes a number and returns
+# its absolute value without using the built-in abs() function.
