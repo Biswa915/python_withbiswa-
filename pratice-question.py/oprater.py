@@ -60,3 +60,16 @@
 #     total += num1
 #     i+= 1
 # print(total)
+
+# Q7: Take a number as input. Print whether it is positive, negative, or zero.
+num=int(input("enter your number="))
+
+if num>=50:
+  print("positive")
+elif num>=30:
+  print("nagativi")
+else:
+  print("zero")
+  
+
+
