@@ -18,7 +18,18 @@
 # Take the users age as input. Check and print whether they are eligible
 # to vote (age >= 18) and whether they are a senior citizen (age >= 60).
 # Print both results.
-user=int(input("enter your age="))
-user_vote=user>=18
-user_vote2=user>=60
-print(f"you age eligible for vote {user_vote} and the senior citizen {user_vote2}")
+# user=int(input("enter your age="))
+# user_vote=user>=18
+# user_vote2=user>=60
+# print(f"you age eligible for vote {user_vote} and the senior citizen {user_vote2}")
+
+# A student scored marks in 3 subjects. Take all three as input,
+# calculate the total and average, and print both using an f-string.
+
+sub1=int(input("enter a number ="))
+sub2=int(input("enter a number ="))
+sub3=int(input("enter a number ="))
+total=(sub1+sub2+sub3)
+avarage=(total/3)
+print(f"the total number is {total} and avarage {avarage}")
+
