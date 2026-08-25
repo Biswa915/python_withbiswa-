@@ -26,10 +26,14 @@
 # A student scored marks in 3 subjects. Take all three as input,
 # calculate the total and average, and print both using an f-string.
 
-sub1=int(input("enter a number ="))
-sub2=int(input("enter a number ="))
-sub3=int(input("enter a number ="))
-total=(sub1+sub2+sub3)
-avarage=(total/3)
-print(f"the total number is {total} and avarage {avarage}")
+# sub1=int(input("enter a number ="))
+# sub2=int(input("enter a number ="))
+# sub3=int(input("enter a number ="))
+# total=(sub1+sub2+sub3)
+# avarage=(total/3)
+# print(f"the total number is {total} and avarage {avarage}")
 
+# Q5: Take a number as input. Print the result of that number raised to the
+# power of 3 using **. Also print what // 7 and % 7 give for the same number.
+num=int(input("enter a number=" ))
+print(f" power{num**3} and also folt divistion {num//7} and modulas {num%7}")
