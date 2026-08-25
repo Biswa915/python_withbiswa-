@@ -62,14 +62,24 @@
 # print(total)
 
 # Q7: Take a number as input. Print whether it is positive, negative, or zero.
-num=int(input("enter your number="))
+# num=int(input("enter your number="))
 
-if num>=50:
-  print("positive")
-elif num>=30:
-  print("nagativi")
-else:
-  print("zero")
+# if num>=50:
+#   print("positive")
+# elif num>=30:
+#   print("nagativi")
+# else:
+#   print("zero")
   
+# Q8: Take two numbers as input. Print the greater of the two. If they are
+# equal, print "Both are equal
+num1 = int(input("enter your number="))
+num2 = int(input("enter your number="))
+if num1>num2:
+    print(f"{num1} and greater than {num2}")
+elif num2>num1:
+    print(f"{num2} and greater than {num1}")
+else:
+    print("both are equal")
 
 
