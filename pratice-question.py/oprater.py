@@ -43,3 +43,9 @@
 # calculate and print their product
 # using += in a way that adds the first number to itself the
 # second number of times. (Think carefully.)
+num1=int(input("enter your number="))
+num2=int(input("enter your number="))
+total=0
+for i in range(num2):
+    total +=num1
+print(total)
