@@ -35,5 +35,10 @@
 
 # Q5: Take a number as input. Print the result of that number raised to the
 # power of 3 using **. Also print what // 7 and % 7 give for the same number.
-num=int(input("enter a number=" ))
-print(f" power{num**3} and also folt divistion {num//7} and modulas {num%7}")
+# num=int(input("enter a number=" ))
+# print(f" power{num**3} and also folt divistion {num//7} and modulas {num%7}")
+
+# Q6: Take two numbers as input. Without using *
+# calculate and print their product
+# using += in a way that adds the first number to itself the
+# second number of times. (Think carefully.)
