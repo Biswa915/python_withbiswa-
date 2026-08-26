@@ -90,14 +90,30 @@
 # 40 to 59 → D
 # Below 40 → F
 
-student=int(input("enter a marks="))
-if student >=90 and student <=100:
-    print("A")
-elif student >=75 and student <=89:
-    print("B")
-elif student >=60 and student<=74:
-    print("C") 
-elif student >=0 and student<=59: 
-    print("D")
+# student=int(input("enter a marks="))
+# if student >=90 and student <=100:
+#     print("A")
+# elif student >=75 and student <=89:
+#     print("B")
+# elif student >=60 and student<=74:
+#     print("C") 
+# elif student >=0 and student<=59: 
+#     print("D")
+# else:
+#     print("F")
+# 
+
+# Q10: Take a year as input. Check if it is a leap year. A year is a leap
+# year if it is divisible by 4, but not by 100, unless it is also
+# divisible by 400.      
+
+year=int(input("enter a year="))
+if  year %400==0:
+    print("it is a leap year ")
+elif year %100==0:
+    print("it is not a leap year")
+elif year %4==0:
+    print("it is a leap year")
 else:
-    print("F")      
+    print("it is not a leap year")
+
