@@ -120,9 +120,10 @@
 # Q11: Take a persons age and whether they have a valid ID (True/False) as input. They
 # can enter a venue only if they are 18 or older AND have a valid ID. Print the
 # appropriate message.
-age=20
-id=(input("enter your valid id="))
-if age >=18 and id==True :
-    print("you can valid for appropriate")
+age=int(input("enter your age ="))
+id= input("enter your valid (True/False)=")
+if age >=18 and id == "True":
+     print("you can valid for appropriate")
 else:
-    print("False")
+   print("False")
+
