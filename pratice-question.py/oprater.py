@@ -73,13 +73,31 @@
   
 # Q8: Take two numbers as input. Print the greater of the two. If they are
 # equal, print "Both are equal
-num1 = int(input("enter your number="))
-num2 = int(input("enter your number="))
-if num1>num2:
-    print(f"{num1} and greater than {num2}")
-elif num2>num1:
-    print(f"{num2} and greater than {num1}")
+# num1 = int(input("enter your number="))
+# num2 = int(input("enter your number="))
+# if num1>num2:
+#     print(f"{num1} and greater than {num2}")
+# elif num2>num1:
+#     print(f"{num2} and greater than {num1}")
+# else:
+#     print("both are equal")
+
+
+# Q9: Take a student's marks as input. Print their grade based on this scale:
+# 90 and above → A
+# 75 to 89 → B
+# 60 to 74 → C
+# 40 to 59 → D
+# Below 40 → F
+
+student=int(input("enter a marks="))
+if student >=90 and student <=100:
+    print("A")
+elif student >=75 and student <=89:
+    print("B")
+elif student >=60 and student<=74:
+    print("C") 
+elif student >=0 and student<=59: 
+    print("D")
 else:
-    print("both are equal")
-
-
+    print("F")      
