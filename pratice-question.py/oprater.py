@@ -107,13 +107,22 @@
 # year if it is divisible by 4, but not by 100, unless it is also
 # divisible by 400.      
 
-year=int(input("enter a year="))
-if  year %400==0:
-    print("it is a leap year ")
-elif year %100==0:
-    print("it is not a leap year")
-elif year %4==0:
-    print("it is a leap year")
-else:
-    print("it is not a leap year")
+# year=int(input("enter a year="))
+# if  year %400==0:
+#     print("it is a leap year ")
+# elif year %100==0:
+#     print("it is not a leap year")
+# elif year %4==0:
+#     print("it is a leap year")
+# else:
+#     print("it is not a leap year")
 
+# Q11: Take a persons age and whether they have a valid ID (True/False) as input. They
+# can enter a venue only if they are 18 or older AND have a valid ID. Print the
+# appropriate message.
+age=20
+id=(input("enter your valid id="))
+if age >=18 and id==True :
+    print("you can valid for appropriate")
+else:
+    print("False")
