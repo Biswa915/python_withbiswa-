@@ -162,10 +162,20 @@
 
 # Q15. Print all the numbers which are divisible by 3 and 5, from 1 to 100
 
+# a=int(input("enter a number="))
+# b=int(input("enter a number="))
+# i=a
+# while i<=b:
+#     if i %3==0 and i %5==0:
+#         print(i,end=" ")
+#     i+=1
+
+# Q16. Sum of all the numbers from 1 to 100
 a=int(input("enter a number="))
 b=int(input("enter a number="))
 i=a
-while i<=b:
-    if i %3==0 and i %5==0:
-        print(i,end=" ")
+total=0
+while i <=b:
+    total +=1
     i+=1
+print(f"total={total}")
