@@ -120,10 +120,22 @@
 # Q11: Take a persons age and whether they have a valid ID (True/False) as input. They
 # can enter a venue only if they are 18 or older AND have a valid ID. Print the
 # appropriate message.
-age=int(input("enter your age ="))
-id= input("enter your valid (True/False)=")
-if age >=18 and id == "True":
-     print("you can valid for appropriate")
+# age=int(input("enter your age ="))
+# id= input("enter your valid (True/False)=")
+# if age >=18 and id == "True":
+#      print("you can valid for appropriate")
+# else:
+#    print("False")
+
+# 
+
+a=int(input("enter a number ="))
+b=int(input("enter a number ="))
+c=int(input("enter a number ="))
+if a>b and a>c:
+    print("largest number is ",a)
+elif b>a and b>c:
+    print("largest number is ",b)
 else:
-   print("False")
+    print("largest number is" ,c)
 
