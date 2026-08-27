@@ -129,13 +129,18 @@
 
 # 
 
-a=int(input("enter a number ="))
-b=int(input("enter a number ="))
-c=int(input("enter a number ="))
-if a>b and a>c:
-    print("largest number is ",a)
-elif b>a and b>c:
-    print("largest number is ",b)
-else:
-    print("largest number is" ,c)
+# a=int(input("enter a number ="))
+# b=int(input("enter a number ="))
+# c=int(input("enter a number ="))
+# if a>b and a>c:
+#     print("largest number is ",a)
+# elif b>a and b>c:
+#     print("largest number is ",b)
+# else:
+#     print("largest number is" ,c)
+
+# Q13: Take a number as input. Using the ternary operator, print "Even" or "Odd" in a single line.
+num=int(input("enter a number="))
+result = "Even" if num %2 == 0 else "odd"
+print(result)
 
