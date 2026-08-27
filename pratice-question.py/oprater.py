@@ -140,7 +140,25 @@
 #     print("largest number is" ,c)
 
 # Q13: Take a number as input. Using the ternary operator, print "Even" or "Odd" in a single line.
-num=int(input("enter a number="))
-result = "Even" if num %2 == 0 else "odd"
-print(result)
+# num=int(input("enter a number="))
+# result = "Even" if num %2 == 0 else "odd"
+# print(result)
 
+# Q14: A shop gives discounts based on purchase amount:
+# Above 5000 → 20% discount
+# Above 2000 → 10% discount
+# Above 1000 → 5% discount
+# 1000 or below → no discount
+amount=int(input("enter a number="))
+if amount>5000:
+    discount=20
+elif amount>2000:
+    discount=10
+elif amount> 1000:
+    discount=5
+else:
+    discount=0
+print("discount=",discount,"%")
+
+
+    
