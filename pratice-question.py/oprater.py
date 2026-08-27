@@ -151,14 +151,12 @@
 # 1000 or below → no discount
 amount=int(input("enter a number="))
 if amount>5000:
-    discount=20
+    discount= amount *20/100
 elif amount>2000:
-    discount=10
+    discount=amount*10/100
 elif amount> 1000:
-    discount=5
+    discount=amount*5/100
 else:
     discount=0
-print("discount=",discount,"%")
+print("discount=",discount)
 
-
-    
