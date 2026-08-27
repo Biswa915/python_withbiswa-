@@ -171,11 +171,23 @@
 #     i+=1
 
 # Q16. Sum of all the numbers from 1 to 100
-a=int(input("enter a number="))
-b=int(input("enter a number="))
-i=a
-total=0
-while i <=b:
-    total +=1
-    i+=1
-print(f"total={total}")
+# a=int(input("enter a number="))
+# b=int(input("enter a number="))
+# i=a
+# total=0
+# while i <=b:
+#     total =total+1
+#     i+=1
+# print(f"total={total}")
+
+# Q17. Sum of all the numbers from 1 to 100 divisible by 2 and 7
+# a=int(input("enter a number="))
+# b=int(input("enter a number="))
+# i=a
+# total=0
+# while i <=b:
+#     if i%2==0 and i%7==0:
+#      print(i)
+#      total =total+1
+#     i+=1
+# print(f"total={total}")
