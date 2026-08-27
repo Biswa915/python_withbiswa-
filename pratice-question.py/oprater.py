@@ -149,14 +149,23 @@
 # Above 2000 → 10% discount
 # Above 1000 → 5% discount
 # 1000 or below → no discount
-amount=int(input("enter a number="))
-if amount>=5000:
-    discount=amount*(20/100)
-elif amount>=2000:
-    discount=amount*(10/100)
-elif amount>=1000:
-    discount=amount*(5/100)
-else:
-    discount=0
-print("discount=",discount)
+# amount=int(input("enter a number="))
+# if amount>=5000:
+#     discount=amount*(20/100)
+# elif amount>=2000:
+#     discount=amount*(10/100)
+# elif amount>=1000:
+#     discount=amount*(5/100)
+# else:
+#     discount=0
+# print("discount=",discount)
 
+# Q15. Print all the numbers which are divisible by 3 and 5, from 1 to 100
+
+a=int(input("enter a number="))
+b=int(input("enter a number="))
+i=a
+while i<=b:
+    if i %3==0 and i %5==0:
+        print(i,end=" ")
+    i+=1
