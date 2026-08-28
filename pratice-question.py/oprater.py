@@ -193,10 +193,17 @@
 # print(f"total={total}")
 
 # Q18. Ask a number from the user, print the multiplication table upto 10
-num=int(input("enter a number="))
-i=0
-while i<=10:
-    div= num*i
-    print(f"{num}x{i}={div}")
-    i+=1
+# num=int(input("enter a number="))
+# i=0
+# while i<=10:
+#     div= num*i
+#     print(f"{num}x{i}={div}")
+#     i+=1
     
+# Q19. Ask a number from the user, and print all the factors
+# num=int(input("enter a number ="))
+# i=1
+# while i <=num:
+#     if num % i==0:
+#         print(i,end=" ")
+#     i+=1
