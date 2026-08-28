@@ -191,3 +191,12 @@
 #      total =total+1
 #     i+=1
 # print(f"total={total}")
+
+# Q18. Ask a number from the user, print the multiplication table upto 10
+num=int(input("enter a number="))
+i=0
+while i<=10:
+    div= num*i
+    print(f"{num}x{i}={div}")
+    i+=1
+    
