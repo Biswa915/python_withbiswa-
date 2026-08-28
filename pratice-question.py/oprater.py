@@ -211,23 +211,23 @@
 # Q20. Take numbers as input from the user one by one. Skip negative
 # numbers and keep adding the positive ones. Stop when the user
 # enters 0 and print the total. (Uses both continue and break.)
-# num=int(input("enter a number ="))
-# total=0
-# i=True
-# for i in range(num-1):
-#     if num==0:
-#         break
-#     if num<0:
-#         continue
-#     total=total+1
-# print(total)
+
 total=0
-while True:
-    num=int(input('enter your number='))
-    if num == 0:
+for i in range(50):
+    num=int(input("enter a number ="))
+    if num==0:
         break
-    if num <0 :
+    if num<0:
         continue
-    total += num
-    
+    total=num+1
 print(total)
+# total=0
+# while True:
+#     num=int(input('enter your number='))
+#     if num == 0:
+#         break
+#     if num <0 :
+#         continue
+#     total += num
+    
+# print(total)
