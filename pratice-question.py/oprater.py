@@ -212,15 +212,15 @@
 # numbers and keep adding the positive ones. Stop when the user
 # enters 0 and print the total. (Uses both continue and break.)
 
-total=0
-for i in range(50):
-    num=int(input("enter a number ="))
-    if num==0:
-        break
-    if num<0:
-        continue
-    total=num+1
-print(total)
+# total=0
+# for i in range(50):
+#     num=int(input("enter a number ="))
+#     if num==0:
+#         break
+#     if num<0:
+#         continue
+#     total=num+1
+# print(total)
 # total=0
 # while True:
 #     num=int(input('enter your number='))
@@ -231,3 +231,27 @@ print(total)
 #     total += num
     
 # print(total)
+
+# Q22
+'''''
+*
+* *
+* * *
+* * * *
+* * * * *
+'''
+for i in range(1,6):
+    for j in range(1,i+1):
+        print("*", end=" ")
+    print()
+'''''
+* * * * *
+* * * * 
+* * * 
+* * 
+* 
+'''
+for i in range(5,0,-1):
+    for j in range(1,i+1):
+        print("*", end=" ")
+    print()
