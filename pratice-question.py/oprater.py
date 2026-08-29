@@ -316,7 +316,7 @@
 3 2 1
 2 1
 5
-1
+
 '''
 # for i in range(5,0,-1):
 #      for j in range(i,0,-1):
@@ -379,7 +379,7 @@
 #          print(j,end=" ")
 #      print()
 
-# Q29.
+# Q30.
 """"
            1
          1 2 3
@@ -405,7 +405,7 @@
 #          print(k,end=" ")
 #     print()
 
-# Q30
+# Q31
 ''''
 1
 2 3
@@ -413,10 +413,24 @@
 7 8 9 10
 11 12 13 14 15 
 '''
-num=int(input("enter a number ="))
-total=1
-for i in range(1,num+1):
-    for j in range(i):
-       print(total,end=" ")
-       total+=1
+# num=int(input("enter a number ="))
+# total=1
+# for i in range(1,num+1):
+#     for j in range(i):
+#        print(total,end=" ")
+#        total+=1
+#     print()
+
+# q32
+''''
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+'''
+for i in range(1,6):
+    for j in range(1,6):
+        print(j,end=" ")
     print()
+
