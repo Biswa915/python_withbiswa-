@@ -250,7 +250,7 @@
 * * * 
 * * 
 * 
-'''
+# '''
 # for i in range(5,0,-1):
 #     for j in range(1,i+1):
 #         print("*", end=" ")
@@ -278,9 +278,21 @@
 4 3 2 1
 5 4 3 2 1
 '''
-n=int(input("enter a number="))
-for i in range(1,n+1):
-    for j in range(i,0,-1):
+# n=int(input("enter a number="))
+# for i in range(1,n+1):
+#     for j in range(i,0,-1):
+#         print(j,end=" ")
+#     print()/
+
+# q24
+'''''
+1 2 3 4 5
+1 2 3 4 
+1 2 3  
+1 2
+1
+''' 
+for i in range(5,0,-1):
+    for j in range(1,i+1):
         print(j,end=" ")
     print()
-    
