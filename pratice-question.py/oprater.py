@@ -476,9 +476,21 @@
 # print(a)
 
 # Q38. Write a function called rectangle_area that takes length and breadth
-as parameters and prints the area.
-def rectangle_area(length,breadth):
-    area=length*breadth
-    return area
-a=rectangle_area(43,10)
+# as parameters and prints the area.
+# def rectangle_area(length,breadth):
+#     area=length*breadth
+#     return area
+# a=rectangle_area(43,10)
+# print(a)
+
+# Q39. Write a function called find_max that takes three numbers as
+# parameters and prints the largest one.
+def biswa(a,b,c):
+    if a>=b:
+        return a
+    elif b>=c:
+      return b
+    else:
+        return c
+a=biswa(10,20,7)
 print(a)
