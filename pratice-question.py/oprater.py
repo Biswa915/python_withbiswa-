@@ -468,9 +468,17 @@
 
 # Q37. Write a function called add that takes two numbers as parameters
 # and prints their sum.
-def biswa(a,b):
-    ans=a+b
-    return ans
+# def biswa(a,b):
+#     ans=a+b
+#     return ans
 
-a=biswa(10,29) 
+# a=biswa(10,29) 
+# print(a)
+
+# Q38. Write a function called rectangle_area that takes length and breadth
+as parameters and prints the area.
+def rectangle_area(length,breadth):
+    area=length*breadth
+    return area
+a=rectangle_area(43,10)
 print(a)
