@@ -485,12 +485,23 @@
 
 # Q39. Write a function called find_max that takes three numbers as
 # parameters and prints the largest one.
-def biswa(a,b,c):
-    if a>=b:
-        return a
-    elif b>=c:
-      return b
-    else:
-        return c
-a=biswa(10,20,7)
-print(a)
+# def biswa(a,b,c):
+#     if a>=b:
+#         return a
+#     elif b>=c:
+#       return b
+#     else:
+#         return c
+# a=biswa(10,20,7)
+# print(a)
+
+# Q40. Write a function called discount_price that takes original_price
+# and discount_percent as parameters and prints the final
+# price after disc
+def biswa(original_price,discount_price):
+    discount=original_price * discount_price//100
+    final_price=original_price-discount_price
+    return f"discount prins is R.s {discount} and final amount is R.s {final_price}"
+a=int(input("enter ypur amount="))
+b=int(input("enter ypur amount="))
+print(biswa(a,b))
