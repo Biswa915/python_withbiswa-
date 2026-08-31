@@ -28,4 +28,21 @@
                     # 2>  and Keyword Arguments
 
 # Default Arguments
-def 
+# def calculet_mark(eng,psy,math=0):
+#     print(f"eng={eng}")
+#     print(f"psy={psy}")
+#     print(f"math={math}")
+#     total=(eng+psy+math)
+#     print(f"total={total}")
+
+# calculet_mark(10,20)
+
+def calculet_mark(eng,psy,math=0):
+    print(f"eng={eng}")
+    print(f"psy={psy}")
+    print(f"math={math}")
+    total=(eng+psy+math)
+    print(f"total={total}")
+
+calculet_mark(eng=10,psy=20,math=10)
+
