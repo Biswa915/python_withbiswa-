@@ -16,6 +16,16 @@
 # g=input("enter your gender=")
 # addition(n,a,g)   
 
-def greet(n1,n2):
-   print(f"total={n1+n2}")
-greet(20,40)
+# def greet(n1,n2):
+#    print(f"total={n1+n2}")
+# greet(20,40)
+
+            #                 1>       :Default Arguments:
+            #  A default argument is a value that a parameter takes automatically if no
+            #    argument is passed for it when calling tle function. It makes certain
+            #                        parameters optional.
+
+                    # 2>  and Keyword Arguments
+
+# Default Arguments
+def 

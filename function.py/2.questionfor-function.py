@@ -63,8 +63,27 @@
 # its absolute value without using the built-in abs() function.
 
 # q41 
-def squer(a):
-    
-    return a**2
+# def squer(a):   
+#     return a**2
+   
+# print(squer(19))
 
-print(squer(19))
+# Q42   
+# def min_of_three(n1,n2,n3):
+#     if n1<n2 and n1<n3:
+#         return n1
+#     elif n2<n1 and n2<n3:
+#         return n2
+#     return n3
+
+# print(min_of_three(8,10,15))
+
+# q43 
+def absolute_value(num):
+    return abs(num)
+
+print(absolute_value(-100))
+print(absolute_value(100))
+print(absolute_value(-100))
+
+
