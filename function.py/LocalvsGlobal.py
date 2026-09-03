@@ -37,3 +37,11 @@ def biswa():
      print(f"hey {name} good morning")
 
 biswa()
+#Global keyword
+count=0
+def increment():
+     global count
+     count=1
+     print(f"inside function count={count}")
+increment()
+print(f"inside function count={count}")
