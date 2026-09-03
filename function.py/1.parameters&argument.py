@@ -44,5 +44,5 @@ def calculet_mark(eng,psy=0,math=0):
     total=eng+psy+math
     print(f"total={total}")
 
-calculet_mark(psy=10,eng=20,)
-
+calculet_mark(10,20,math=20)
+print("hello", end=" ")
