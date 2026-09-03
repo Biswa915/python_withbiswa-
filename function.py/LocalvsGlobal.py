@@ -4,10 +4,18 @@
 # outside all functions is global it can be accessed from anywhere.
 
 
-#Local Variable
+#Local Variable 1
 def num(a,b,c):
      total=a+b+c
      print(f"total mark={total}")
 
-     
+
 num(10,15,20)
+
+#Local Variable 2
+def num(n1,n2):
+     n1=100
+     n2=120
+     print(f"n1={n1} and n2={n2}")
+
+num(10, 20)
