@@ -17,5 +17,8 @@ def num(n1,n2):
      n1=100
      n2=120
      print(f"n1={n1} and n2={n2}")
-
-num(10, 20)
+n1=10
+n2=20
+num(n1, n2)
+print(n1)
+print(n2)
