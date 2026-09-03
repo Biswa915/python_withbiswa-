@@ -37,16 +37,12 @@
 
 # calculet_mark(10,20)
 
-def calculet_mark(eng,psy,math=0):
+def calculet_mark(eng,psy=0,math=0):
     print(f"eng={eng}")
     print(f"psy={psy}")
     print(f"math={math}")
-    total=(eng+psy+math)
+    total=eng+psy+math
     print(f"total={total}")
 
-calculet_mark(eng=10,psy=20,math=10)
+calculet_mark(psy=10,eng=20,)
 
-Local vs Global
-Scope refers to where a variable is accessible in your code. A variable created
-inside a function is local it only exists inside that function. A variable created
-outside all functions is global it can be accessed from anywhere.
