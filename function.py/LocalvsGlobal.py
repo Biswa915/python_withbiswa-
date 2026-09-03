@@ -22,3 +22,18 @@ n2=20
 num(n1, n2)
 print(n1)
 print(n2)
+
+#Global Variable 1
+n=10
+n1=20
+def num():
+     total=n+n1
+     print(f"total={total}")
+
+num()
+
+name="biswa"
+def biswa():
+     print(f"hey {name} good morning")
+
+biswa()
