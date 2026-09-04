@@ -41,7 +41,10 @@ biswa()
 count=0
 def increment():
      global count
-     count=1
+     count +=1
      print(f"inside function count={count}")
+increment()
+increment()
+increment()
 increment()
 print(f"inside function count={count}")
