@@ -79,11 +79,22 @@
 # print(min_of_three(8,10,15))
 
 # q43 
-def absolute_value(num):
-    return abs(num)
+# def absolute_value(num):
+#     return abs(num)
 
-print(absolute_value(-100))
-print(absolute_value(100))
-print(absolute_value(-100))
+# print(absolute_value(-100))
+# print(absolute_value(100))
+# print(absolute_value(-100))
 
+#  Practice Questions on LAMBDA Functions
 
+# Q44. Write a lambda function that takes a number and returns its cube. Store
+# it in a variable and call it.
+
+# Q45. Write a lambda function that takes a number and returns "Positive", or
+# "Negative".
+
+# q44
+a=int(input("enter a number="))
+cube=lambda a:a**3
+print(cube(a))
