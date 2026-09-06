@@ -108,16 +108,38 @@
 # if it's divisible by 3, "Buzz" if it's divisible by 5, "FizzBuzz" if it's divisible
 # by both, otherwise print the number itself.
 
-a = int(input("enter a number="))
-def fizzbuzz(n):
-    if n % 3 ==0 and n % 5 ==0:
-        print("FIZZbuzz")
-    elif n % 3 ==0:
-        print("FIZZ")
-    elif n % 5==0:
-        print("buzz")
-    else:
-        print(n)
+# a = int(input("enter a number="))
+# def fizzbuzz(n):
+#     if n % 3 ==0 and n % 5 ==0:
+#         print("FIZZbuzz")
+#     elif n % 3 ==0:
+#         print("FIZZ")
+#     elif n % 5==0:
+#         print("buzz")
+#     else:
+#         print(n)
 
-fizzbuzz(a)
+# fizzbuzz(a)
 
+# Practice Questions Functions (Assignments)
+
+# Q47. Write a function power(base, exp) that returns base raised to exp using a
+# loop - no ** operator or pow() allowed.
+
+# Q48. Write a function tax_calculator(income) that takes annual income and returns
+# the tax amount based on these slabs:
+# · Up to 2,50,000 -> No tax
+# · 2,50,001 to 5,00,000 -> 5%
+# · 5,00,001 to 10,00,000 -> 20%
+# · Above 10,00,000 -> 30%
+
+
+# Q47.
+def power(base, exp):
+    result = 1
+    for i in range(exp):
+        result = result * base
+    return result
+
+
+print(power(4,7))
