@@ -11,3 +11,4 @@
 bis_wa=lambda age: True if age>=18 else False
 
 print(bis_wa(19))
+print(bis_wa(17))
