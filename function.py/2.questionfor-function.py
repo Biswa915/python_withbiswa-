@@ -100,6 +100,28 @@
 # print(cube(a))
 
 # q45
-num=int(input("enter a number="))
-bisw=lambda num: "Positive" if num>0 else "Negative"
-print(bisw(num))
+# num=int(input("enter a number="))
+# bisw=lambda num: "Positive" if num>0 else "Negative"
+# print(bisw(num))
+
+# Practice Questions Functions (Assignments)
+# Q46. Write a function fizzbuzz(n) that takes a single number and prints "Fizz
+# if it's divisible by 3, "Buzz" if it's divisible by 5, "FizzBuzz" if it's divisible
+# by both, otherwise print the number itself.
+
+a=int(input("enter a number="))
+def fizzbuzz(n):
+ if n%3==0 and n%5==0:
+  print("FIZZbuzz")
+ elif n%3==0:
+  print("FIZZ")
+ elif n%5:
+  print("buzz")
+ else:
+  print(n)
+
+
+
+
+
+
