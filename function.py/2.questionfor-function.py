@@ -19,7 +19,7 @@
 #     ans=a1+b1
 #     print(f'total={ans}')
 
-# addition(123,43)    
+# addition(123,43)
 
 # q2
 # def rectangle_area(length,breadth):
@@ -37,9 +37,9 @@
 #         print(b)
 #     else:
 #         print(c)
-        
-# max(10,50,34) 
-              
+
+# max(10,50,34)
+
 # q4
 # def discount_price(original_pice,discount_price):
 #     discount=(discount_price /100 ) * original_pice
@@ -48,7 +48,6 @@
 #     print(f"the final price Rs{final_amount}")
 
 # discount_price(475, 58)
-
 
 
 # Practice Questions on Return Statements
@@ -62,13 +61,13 @@
 # Q43. Write a function called absolute_value that takes a number and returns
 # its absolute value without using the built-in abs() function.
 
-# q41 
-# def squer(a):   
+# q41
+# def squer(a):
 #     return a**2
-   
+
 # print(squer(19))
 
-# Q42   
+# Q42
 # def min_of_three(n1,n2,n3):
 #     if n1<n2 and n1<n3:
 #         return n1
@@ -78,7 +77,7 @@
 
 # print(min_of_three(8,10,15))
 
-# q43 
+# q43
 # def absolute_value(num):
 #     return abs(num)
 
@@ -109,19 +108,16 @@
 # if it's divisible by 3, "Buzz" if it's divisible by 5, "FizzBuzz" if it's divisible
 # by both, otherwise print the number itself.
 
-a=int(input("enter a number="))
+a = int(input("enter a number="))
 def fizzbuzz(n):
- if n%3==0 and n%5==0:
-  print("FIZZbuzz")
- elif n%3==0:
-  print("FIZZ")
- elif n%5:
-  print("buzz")
- else:
-  print(n)
+    if n % 3 ==0 and n % 5 ==0:
+        print("FIZZbuzz")
+    elif n % 3 ==0:
+        print("FIZZ")
+    elif n % 5==0:
+        print("buzz")
+    else:
+        print(n)
 
-
-
-
-
+fizzbuzz(a)
 
