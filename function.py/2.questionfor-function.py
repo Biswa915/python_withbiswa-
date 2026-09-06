@@ -95,6 +95,11 @@
 # "Negative".
 
 # q44
-a=int(input("enter a number="))
-cube=lambda a:a**3
-print(cube(a))
+# a=int(input("enter a number="))
+# cube=lambda a:a**3
+# print(cube(a))
+
+# q45
+num=int(input("enter a number="))
+bisw=lambda num: "Positive" if num>0 else "Negative"
+print(bisw(num))
