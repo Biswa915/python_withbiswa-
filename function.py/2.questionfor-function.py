@@ -153,8 +153,8 @@ def tax_calculator(income):
     elif income<=1000000:
         return income *20/100
     else:
-        income*30/100
+        return income*30/100
 
 tax=int(input("enter your annual income="))
 print(tax_calculator(tax))
-print(tax_calculator(500000))
+print(tax_calculator(1200000))
