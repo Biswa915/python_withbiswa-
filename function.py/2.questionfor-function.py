@@ -135,11 +135,23 @@
 
 
 # Q47.
-def power(base, exp):
-    result = 1
-    for i in range(exp):
-        result = result * base
-    return result
+# def power(base, exp):
+#     result = 1
+#     for i in range(exp):
+#         result = result * base
+#     return result
 
 
-print(power(4,7))
+# print(power(4,7))
+
+# Q48.
+def tax_calculator(income):
+    if income<=250000:
+        return 0
+    elif income<=500000:
+        return income *5/100
+    elif income<=1000000:
+        return income *20/100
+    else:
+        income*30/100
+print(tax_calculator(40000))
