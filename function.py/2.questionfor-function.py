@@ -155,5 +155,6 @@ def tax_calculator(income):
     else:
         income*30/100
 
-print(tax_calculator(40000))
-print(tax_calculator(400000))
+tax=int(input("enter your annual income="))
+print(tax_calculator(tax))
+print(tax_calculator(500000))
