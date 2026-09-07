@@ -154,4 +154,6 @@ def tax_calculator(income):
         return income *20/100
     else:
         income*30/100
+
 print(tax_calculator(40000))
+print(tax_calculator(400000))
