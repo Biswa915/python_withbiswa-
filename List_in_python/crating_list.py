@@ -23,5 +23,9 @@ print(min(mark))
 
 # max() - Largest Value
 # Returns the largest item from a list of numbers.
-mark=[37,45,56,23,54]
+mark=[37,45,56, 24,23,54]
+
 print(max(mark))
+
+# sum() - Sum of Elements
+# Returns the sum of all numeric elements in the list.
