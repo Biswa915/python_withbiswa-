@@ -29,3 +29,5 @@ print(max(mark))
 
 # sum() - Sum of Elements
 # Returns the sum of all numeric elements in the list.
+mark=[37,56,45,56, 24,23,54]
+print(sum(mark))
