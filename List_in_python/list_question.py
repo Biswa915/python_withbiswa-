@@ -4,3 +4,14 @@
 lis=["danus","monye","game of throne","stanger think","majo bou"]
 n=len(lis)
 print(f"find the movie fast = {lis[n-5 ]} last = {lis[n-1]} and midddle ={lis[n-3]}")
+
+
+# Question 50: 
+# Number Replacement Create a list of 5 numbers (e.g., [10, 20, 30, 40, 50]). 
+# Replace the second and fourth elements of this list with the number 0 using indexing. Pr
+
+lis=[10, 20, 30, 40, 50]
+
+lis[1]=0
+lis[3]=0
+print(f"replace the list second and fourth = {lis}")
