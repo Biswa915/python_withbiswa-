@@ -11,3 +11,11 @@ lis=["biswa","guru","deep", 29,75,"datt"]
 
 n=len(lis)
 print(f"last elemat = {lis[n-1]}")
+
+
+     # update list
+lis=["biswa","guru","deep", 29,75,"datt"]
+
+print(f"list={lis}")
+lis[2]="mosks"
+print(f"list={lis}")
