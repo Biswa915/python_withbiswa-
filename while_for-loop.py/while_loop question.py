@@ -20,16 +20,16 @@
 #     i +=1
 
 #q16
-# start=int(input("enter your number="))
-# end=int(input("enter your number="))
+start=int(input("enter your number="))
+end=int(input("enter your number="))
 
-# i=start
-# total = 0
-# while i<=end:
-#      total= total+i
-#      i+=1
+i=start
+total = 0
+while i<=end:
+     total= total+i
+     i+=1
 
-# print(f"total = {total}")
+print(f"total = {total}")
 
 #q17
 # start=int(input("enter your number="))
@@ -54,14 +54,14 @@
 #     i +=1
 
 # Q19 
-num=int(input('enter your num='))
-i=1
-count=0
-while i<=num:
-    if num %i==0:
-     count=count+i
-    i+=1
-print(f'total factor number{num} and counting number{count}')
+# num=int(input('enter your num='))
+# i=1
+# count=0
+# while i<=num:
+#     if num %i==0:
+#      count=count+i
+#     i+=1
+# print(f'total factor number{num} and counting number{count}')
 
 
 

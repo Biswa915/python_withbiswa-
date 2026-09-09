@@ -31,3 +31,13 @@ print(max(mark))
 # Returns the sum of all numeric elements in the list.
 mark=[37,56,45,56, 24,23,54]
 print(sum(mark))
+
+# Create Sorted List
+# Returns a new list containing all items from the iterable in ascending order. The original list remains
+# unchanged.
+# mark=[37,56,45,56, 24,23,54]
+# new_list=sorted(mark)
+# print(f"new list is assending oder={new_list}")
+mark=[37,56,45,56, 24,23,54]
+new_list=sorted(mark,reverse=True)
+print(f"new list is dissending oder={new_list}")
