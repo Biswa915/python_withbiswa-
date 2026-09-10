@@ -17,7 +17,10 @@ n=len(num)
 #     print(num[i],end=" ")
 #     i-=1
 
-total=0
-for i in range(0,n):  
-     total= total + num[i]
-print(total)
+# total=0
+# for i in range(0,n):  
+#      total= total + num[i]
+# print(total)
+
+for i in num :
+    print(i,end=" ")
