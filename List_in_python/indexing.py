@@ -5,9 +5,10 @@
 # the second at 1, and so forth.
 
 lis=["biswa","guru","deep", 29,75,"datt"]
-# print(lis[0])
-# print(lis[3])
-# print(lis[-2])
+print(lis[0])
+print(lis[3])
+print(lis[-2])
+print(lis[-5])
 
 n=len(lis)
 print(f"last elemat = {lis[n-1]}")

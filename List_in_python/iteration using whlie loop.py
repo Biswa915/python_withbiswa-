@@ -1,5 +1,5 @@
 num=[10,25,33,9,17,20,71,42,55,24,27]
-n=len(num)
+# n=len(num)
 # i=0
 # while i <=n-1:
 #     print(num[i], end=" ")
@@ -22,5 +22,9 @@ n=len(num)
 #      total= total + num[i]
 # print(total)
 
-for i in num :
-    print(i,end=" ")
+# for i in num :
+#     print(i,end=" ")
+total=0
+for num in num:
+    total= total+num
+print(total)
