@@ -46,3 +46,20 @@ def biswa_target(list,target):
 print(biswa_target(num,8))
 print(biswa_target(num,27))
 
+
+# Question 53
+# Given a list of numbers, use a loop to calculate and print their average.
+# You can use len() to get the count of elements, but avoid using
+# sum() for the total.
+
+nums=[10,-19,2,3,29,9,27,18,20,21]
+def calcule_average(nums):
+    n=len()
+    total=0
+    for num in nums:
+         total +=num
+         return total / n
+         
+    
+print(calcule_average(nums))
+     
