@@ -44,3 +44,5 @@ def biswa_target(list,target):
      return False
      
 print(biswa_target(num,8))
+print(biswa_target(num,27))
+
