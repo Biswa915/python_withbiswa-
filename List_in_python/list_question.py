@@ -52,14 +52,14 @@ print(biswa_target(num,27))
 # You can use len() to get the count of elements, but avoid using
 # sum() for the total.
 
-nums=[10,-19,2,3,29,9,27,18,20,21]
+# nums=[10,-19,2,3,29,9,27,18,20,21]
 def calcule_average(nums):
-    n=len()
+    n=len(nums)
     total=0
     for num in nums:
          total +=num
          return total / n
          
-    
+nums=[10,-19,2,3,29,9,27,18,20,21]
 print(calcule_average(nums))
      
