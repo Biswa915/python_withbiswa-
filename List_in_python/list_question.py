@@ -26,8 +26,21 @@ print(f"replace the list second and fourth = {lis}")
 
 nums = [6, -5,4, 2, 10, 91, -75, 49, 9]
 
-maxi=float("-in")
+maxi=float("-inf")
 for num in nums:
      if num>maxi:
           maxi=num
 print(f"maximum number is = {maxi}")
+
+# Question 52: 
+# Write a program that takes a list and a target number. Use a loop to determine if
+# the target number exists in the list. Do not use the in operator.
+
+num=[10,-19,2,3,29,9,27,18,20,21]
+def biswa_target(list,target):
+     for num in list:
+         if num==target:
+              return True
+     return False
+     
+print(biswa_target(num,8))
