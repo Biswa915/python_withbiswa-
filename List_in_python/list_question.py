@@ -18,3 +18,16 @@ lis=[10, 20, 30, 40, 50]
 lis[1]=0
 lis[3]=0
 print(f"replace the list second and fourth = {lis}")
+
+
+# Question 51: 
+# Given a list of numbers, write Python code using a loop to find and print the
+# largest element. Do not use the built-in max() function.
+
+nums = [6, -5,4, 2, 10, 91, -75, 49, 9]
+
+maxi=float("-inf")
+for num in nums:
+     if num>maxi:
+          maxi=num
+print(f"maximum number is = {maxi}")
