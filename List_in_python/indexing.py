@@ -20,3 +20,12 @@ lis=["biswa","guru","deep", 29,75,"datt"]
 print(f"list={lis}")
 lis[2]="mosks"
 print(f"list={lis}")
+
+# Create a list of 5 numbers (e.g., [10, 20, 30, 40, 50]). Replace the second and
+# fourth elements of this list with the number 0 using indexing.
+# Print the updated list.
+
+# num=[10,20,30,40,50]
+# num[1]=0
+# num[3]=0
+# print(num)
