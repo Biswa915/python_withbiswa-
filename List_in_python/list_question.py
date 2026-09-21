@@ -26,7 +26,7 @@ print(f"replace the list second and fourth = {lis}")
 
 nums = [6, -5,4, 2, 10, 91, -75, 49, 9]
 
-maxi=float("-inf")
+maxi=float("-in")
 for num in nums:
      if num>maxi:
           maxi=num
